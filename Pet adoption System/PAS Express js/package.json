@@ -1,0 +1,18 @@
+{
+  "name": "pas-express-js",
+  "version": "1.0.0",
+  "description": "express for pet adoption system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}

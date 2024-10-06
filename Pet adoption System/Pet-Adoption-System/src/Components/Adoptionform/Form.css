@@ -1,0 +1,65 @@
+.body2{
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    height: 400px;
+    /* background-color: rgb(207, 0, 0); */
+    /* background-color: aqua;
+    border-radius: 50px; */
+}
+.h2{
+    margin: 13px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    font-size: 15px;
+    font-style: oblique ;
+}
+.Formquote{
+    padding: 20px;
+    padding-left: 350px;
+    font-family:cursive;
+    font-size: 10px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(1, 19, 27, 0.9);
+    width: 100vw;
+    height: 100px;
+    margin-top: -50px;
+
+}
+.FormBox{
+    margin-top: -100px;
+    margin-left: 5%;
+    padding-top: 20px;
+    width: 350px;
+    height:450px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* background: rgba(0, 0, 0, 0.7); */
+    background-color: rgba(1, 19, 27, 0.9);
+    box-shadow: 0px 8px 32px 0 rgb(57, 62, 18);
+    /* border-radius: 50px; */
+    color: white;
+    border-top: 2px solid rgba(255, 255, 255, 0.35);
+    border-left: 2px solid rgba(255, 255, 255, 0.35);
+  }
+.Outer{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(222, 122, 152);
+    background-size: 90vw 100vh;
+    background-image:url("https://www.chocohotel.it/inc/scripts/crop.php?img=https://admin.abc.sm/img/gallery/upload/8246/img_lastminute_313253_1615917406.jpg&w=1200&h=500&o=0");
+    display: flex;
+    background-position: right;
+    /* justify-content: center; */
+    align-items: center;
+}

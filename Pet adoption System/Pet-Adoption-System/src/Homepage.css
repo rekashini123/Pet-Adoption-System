@@ -1,0 +1,93 @@
+.Main1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 217, 221);
+    background-repeat: no-repeat;
+    background-image: url("https://thumbs.dreamstime.com/b/golden-retriever-dog-sitting-white-24750790.jpg");
+  }
+  .Main-header {
+    width: 100%;
+    /* position: fixed;
+    isolation: isolate; */
+    /* display: flex; */
+    background-color: rgba(1, 19, 27, 0.9);
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  /* .logo {
+    font-size: 24px;
+    font-weight: bold;
+  } */
+  .Main-nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* position: fixed; */
+  }
+  .Main-nav-links li {
+    margin-right: 20px;
+  }
+  .Main-nav-links a:hover{
+    color:#ff6f00
+  }
+  .Main-nav-links li:last-child {
+    margin-right: 0;
+  }
+  .Main-nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .Main-container {
+    /* position: relative; */
+    overflow: auto;
+    max-width: 800px;
+    margin-left: 400px ;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+
+    /* justify-content: center; */
+  }
+  .Main-image {
+    position: relative;
+    width: calc(25% - 20px);
+    margin: 5px;
+    overflow: hidden;
+  }
+  .Main-image img {
+    width: 100%;
+    height: 250px; /* Set the height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+    display: block;
+  }
+  .button-group {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+ 
+  .details-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+  }
+  .details-button:hover {
+    background-color: #45a049;
+  }
